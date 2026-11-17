@@ -17,7 +17,7 @@ import requests
 
 BASE = "https://rkr.statistikbank.dk/statbank5a/SelectVarVal/"
 KATEGORIER = {"1": "Parcel-/rækkehus", "2": "Ejerlejlighed"}
-ANTAL_KVARTALER = 8
+ANTAL_KVARTALER = 20  # 5 år, til prisudviklingen i hoejre_side.py
 
 
 def options(side, var):
